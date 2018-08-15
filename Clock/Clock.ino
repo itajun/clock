@@ -1,8 +1,6 @@
 /**
  * NeoPixel NTP Clock
  *
- * Author: Nicholas Klopfer-Webber
- * Date:   2018-06-15
  * Board:  NodeMCU 1.0 (ESP-12E Module)
  * Board Settings:
  *    Flash Size: 4M (3M SPIFFS)
