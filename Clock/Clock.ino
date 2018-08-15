@@ -28,12 +28,10 @@
  */
 
 #include <ESP8266WiFi.h>
-#include <OneWire.h>
 #include <Adafruit_NeoPixel.h>
 #include <WiFiUdp.h>
 
 Adafruit_NeoPixel Strip = Adafruit_NeoPixel(60, D3, NEO_GRB + NEO_KHZ800);
-OneWire OneWire(D4);
 WiFiUDP UDP;
 
 IPAddress timeServerIP;
