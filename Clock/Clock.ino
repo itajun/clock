@@ -25,6 +25,9 @@
  *   60 NeoPixels in a circle + 24 Neo in a inner circle.
  *   1-Wire Temp sensor
  *   LDR with 430K resistor to +ve.
+ *
+ *  IMPORTANT: The best approach would probably relly on "currentTime()" instead of incrementing it by 1000 every second... But hey, it's about blinking LEDs,
+ *  not keeping track of time :D
  */
 
 #include <ESP8266WiFi.h>
